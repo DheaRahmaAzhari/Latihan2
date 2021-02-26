@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <fieldset style="background-color: red;">
+  <fieldset style="background-color: yellow;">
+   <title> Formulir Pendaftaran Mahasiswa </title>
+</head>
+<body>
+   <h1 align="center"> Formulir Pendaftaran Mahasiswa </h1>
+   <h1 align="center"> Universitas Pendidikan Indonesia </h1>
+   <form>
+      <fieldset>
+        <fieldset style="background-color: green;">
+       <legend> Data Diri Pribadi </legend>
+       <div>
+        <fieldset style="background-color: orange;">
+         <label> Nama Lengkap: </label>
+
+         <div>
+            <input type="text" 
+            required 
+            name="nama" 
+            size="30" placeholder="">
+         </div>
+
+       </div>
+       <div>
+        <fieldset style="background-color: orange;">
+         <label> Jenis Kelamin </label>
+         <div>
+           <input type="radio" id="pria" name="jeniskelamin"><label for="pria">Pria</label>
+          <input type="radio"id="wanita" name="jeniskelamin"><label for="wanita">Wanita</label>
+         </div>
+       </div>
+       <div>
+        <fieldset style="background-color: orange;">
+         <label for="Tanggal_Lahir"> Tanggal Lahir </label>
+         <div>
+           <input type="date" name="Tanggal_Lahir" id="Tanggal_Lahir" value="">
+         </div>
+       </div>
+      </fieldset>   
+   </form>
+    <div>
+      <form>
+        <fieldset>
+          <fieldset style="background-color: green;">
+          <legend> Informasi Kontak </legend> 
+          <div>
+            <fieldset style="background-color: orange;">
+            <label> Alamat </label>
+            <div>
+              <input type="text" name="Alamat" size="100">
+            </div>
+          </div>
+          <div>
+            <fieldset style="background-color: orange;">
+            <label> Provinsi </label>
+            <br>
+              <select>
+                <fieldset style="background-color: orange;">
+                <option> Aceh - Banda Aceh </option>
+                <option> Sumatera Utara - Medan </option>
+                <option> Sumatera Barat - Padang </option>
+                <option> Riau - Pekanbaru </option>
+                <option> Kepulauan Riau - Tanjungpinang </option>
+                <option> Jambi - Jambi </option>
+                <option> Sumatera Selatan - Palembang </option>
+                <option> Kepulauan Bangka Belitung - Pangkal Pinang </option>
+                <option> Bengkulu - Bengkulu </option>
+                <option> BLampung - Bandar Lampung </option> 
+                <option> DKI Jakarta - Jakarta </option>
+                <option> Banten - Serang</option>
+                <option> Jawa Barat - Bandung</option>
+                <option> Jawa Tengah - Semarang </option>
+                <option> DI Yogyakarta - Yogyakarta </option>
+                <option> Jawa Timur - Surabaya </option>
+                <option> Bali - Denpasar </option>
+                <option> Nusa Tenggara Barat - Mataram </option> 
+                <option> Nusa Tenggara Timur - Kupang </option>
+                <option> Kalimantan Barat - Pontianak </option>
+                <option> Kalimantan Tengah - Palangkaraya </option>
+                <option> Kalimantan Selatan - Banjarmasin </option>
+                <option> Kalimantan Timur - Samarinda </option>
+                <option> Kalimantan Utara - Tanjung Selor </option>
+                <option> Sulawesi Utara - Manado </option>
+                <option> Gorontalo - Gorontalo </option>
+                <option> Sulawesi Tengah - Palu </option>
+                <option> Sulawesi Barat - Mamuju </option>
+                <option> Sulawesi Selatan - Makassar </option>
+                <option> Sulawesi Tenggara - Kendari </option>
+                <option> Maluku - Ambon </option>
+                <option> Maluku Utara - Sofifi </option>
+                <option> Papua Barat - Manokwari </option>
+                <option> Papua - Jayapura </option>
+              </select>
+          </div>
+          <div>
+            <fieldset style="background-color: orange;">
+            <label> Kode Pos </label>
+            <div>
+              <input type="number" name="Kode Pos" placeholder="" >
+            </div>
+          </div>
+          <div>
+            <fieldset style="background-color: orange;">
+            <label> Nomer Handphone </label>
+            <div>
+              <input type="number" name="Nomer Handphone" placeholder="" >
+            </div>
+          </div>
+          <div>
+            <fieldset style="background-color: orange;">
+            <label for="Email"> Email : </label>
+            <div>
+              <input id="Email" type="Email"
+              required="" 
+              name="Email" placeholder="user@example.com" />
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <fieldset style="background-color: green;">
+          <legend> Data Jurusan </legend>
+          <fieldset style="background-color: orange;">
+            <label> Jalur Masuk </label>
+            <div>
+           <input type="radio" id="snmptn" name="jm"><label for="snmptn"> SNMPTN </label>
+          <input type="radio"id="sbmptn" name="jm"><label for="sbmptn"> SBMPTN </label>
+          <input type="radio"id="SM" name="jm"><label for="SM"> SM </label>
+          <div>
+            <fieldset style="background-color: orange;">
+             <label> Program Studi </label>
+             <div>
+               <input type="text" name="Program Studi" placeholder="">
+             </div>
+          </div>
+          <div>
+            <fieldset style="background-color: orange;">
+            <label> Universitas Pendidikan Indonesia Kampus </label>
+            <br>
+            <select>
+              <fieldset style="background-color: orange;">
+                <option> Bumi Siliwangi </option>
+                <option> Kampus Cibiru </option>
+                <option> Kampus Purwakarta </option>
+                <option> Kampus Sumedang </option>
+                <option> Kampus Tasikmalaya </option>
+                <option> Kampus Serang </option>
+            </select>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div>
+      <fieldset style="background-color: orange;">
+      <label> Tanda Tangan Mahasiswa </label>
+      <div>
+        <textarea name="ttm" rows="4" cols="30"></textarea>
+      </div>
+    </div>   
+</body>
+</html>
